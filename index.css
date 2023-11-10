@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+.header-section {
+  background-color: #3d589a;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+.top-header-section {
+  display: flex;
+  align-items: center;
+}
+
+.forgotten-account {
+  text-align: center;
+  color: white;
+  margin-left: 25rem;
+}
+
+.brand-name {
+  font-weight: bold;
+  color: white;
+  width: 30%;
+  padding-left: 1rem;
+}
+
+.login-form {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+.input-group input {
+  padding: 0.25rem;
+  border: none;
+}
+button {
+  border: none;
+}
+
+.login-btn {
+  background-color: #4166ae;
+  padding: 0.25rem 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 1.25rem;
+  font-weight: bold;
+}
+
+.bottom-section {
+  background-color: #e7ecef;
+  height: 100vh;
+}
+.create-account-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem 0;
+  gap: 1rem;
+  width: 35%;
+}
+
+.birthday {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 0.5rem;
+}
+
+.birthday input {
+  width: 8rem;
+}
+.create-account-form input {
+  background-color: white;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: none;
+}
+.create-account-btn {
+  background-color: #5a8c43;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  width: 10rem;
+  font-weight: bold;
+}
+
+.declaration-message span {
+  color:#3d589a;
+  font-weight: bold;
+}
+
+.create-account-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
